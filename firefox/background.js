@@ -17,12 +17,7 @@ function gotoProxy() {
     gettingActiveTab.then( function(tabs){
         if(tabs[0]){
             var tab = tabs[0];
-            console.log(tab.url);
-            console.log(createUrl(tab.url));
-            browser.tabs.create({
-                active: true,
-                url: createUrl(tab.url)
-            })
+            tab.url = createUrl(tab.url)
         }
     });
 }
