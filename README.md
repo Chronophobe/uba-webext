@@ -5,6 +5,7 @@ Opens a new tab for the current page using the [uba.uva.nl](http://uba.uva.nl) w
 ## Installation
 
 **Firefox**
+
 1. Download the `.xpi`-file from the `release/` folder.
 2. Go to `Tools > Add-ons`
 3. Click the little gear icon
@@ -12,6 +13,7 @@ Opens a new tab for the current page using the [uba.uva.nl](http://uba.uva.nl) w
 5. Select your freshly downloaded `.xpi`-file.
 
 **Chrome**
+
 1. Download the `.crx`-file from the `release/` folder.
 2. Go to `More tools > Extensions`
 3. Drag and drop the `.crx`-file there.
