@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "UBA Linker",
+    "version": "1.1.1",
+    "author": "Stan Janssen",
+    "homepage_url": "https://github.com/Chronophobe/uba-webext",
+
+    "description": "Replaces the current URL with the UBA proxy one.",
+    "icons": {
+        "48": "icons/uba.png"
+    },
+
+    "permissions": ["activeTab", "tabs"],
+
+    "browser_action": {
+        "default_icon": "icons/uba.png",
+        "default_title": "UBA"
+    },
+
+    "background": {
+        "scripts": ["background.js"]  
+    }
+}
