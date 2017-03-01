@@ -12,14 +12,16 @@ function createUrl(original) {
     return url;
 }
 
+function updateTab(tabs){
+    if(tabs[0]){
+        var tab = tabs[0];
+        proxy = createUrl(tab.url);
+        chrome.tabs.update(tab.id, { url: proxy });
+    }
+}
+
 function gotoProxy() {
     var gettingActiveTab = browser.tabs.query({active: true, currentWindow: true});
-    gettingActiveTab.then( function(tabs){
-        if(tabs[0]){
-            var tab = tabs[0];
-            proxy = createUrl(tab.url);
-            browser.tabs.update(tab.id, { url: proxy });
-        }
-    });
+    gettingActiveTab.then(updateTab);
 }
 browser.browserAction.onClicked.addListener(gotoProxy);
