@@ -10,5 +10,5 @@ Opens a new tab for the current page using the [uba.uva.nl](http://uba.uva.nl) w
 5. Navigate to and select your freshly downloaded `.xpi`-file.
 
 ## TODO:
-* Port to Chrome
+* ~~Port to Chrome~~
 * Maybe make it more generic and configurable to work with other webproxies too.
