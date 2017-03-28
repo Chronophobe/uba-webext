@@ -1,0 +1,1 @@
+javascript:(function(){parser=document.createElement('a');parser.href=window.location;url=parser.protocol;url+='//';url+=parser.hostname;url+='.proxy.uba.uva.nl:2048';url+=parser.pathname;url+=parser.search;url+=parser.hash;window.location=url;})();
