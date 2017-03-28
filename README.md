@@ -28,7 +28,7 @@ In case Chrome blocks the extension since it's installed outside the Web Store, 
 
 **Bookmarklet**
 
-1. Copy the contents of the [bookmarklet](bookmarklet)
+1. Copy the contents of the [bookmarklet](bookmarklet.js)
 2. Create a new bookmark in your browser
 3. Paste the contents
 
